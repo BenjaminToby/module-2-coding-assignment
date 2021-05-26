@@ -38,7 +38,7 @@ p {
     padding: 40px 20px 20px 20px;
     position: relative;
     background-color: #EDF1F5;
-    border: 1px solid #D2D8DF;
+    border: 1px solid black;
     border-radius: 5px;
     flex-grow: 1;
     overflow: hidden;
@@ -46,11 +46,12 @@ p {
 
 .menu-tag {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1px;
+    right: -1px;
     margin: 0;
     padding: 10px 20px;
     width: 120px;
+    border: 1px solid black;
 }
 
 #chicken {
